@@ -6,7 +6,9 @@ A Python script to compose cartoon strips from images.
 
 Input:
 
-![1.jpg](1.jpg =100x)
+<img src=1.jpg width=100 />
+
+![1.jpg](1.jpg)
 
 ![2.jpg](2.jpg)
 
