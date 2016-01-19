@@ -10,15 +10,15 @@ A image:
 
 <img src=1.jpg width=400 />
 
-Other:
+Another:
 
 <img src=2.jpg width=400 />
 
-Other:
+Another:
 
 <img src=3.jpg width=400 />
 
-Other:
+Another:
 
 <img src=4.jpg width=400 />
 
@@ -38,15 +38,15 @@ Output with `-c 2` option:
 
 # Description
 
-1. Put images in a dir with `jpg` extension file (downcase),
-2. Run the script with the appropiate arguments and
+1. Put images in a directory with `jpg` extension file (lowercase),
+2. Run the script with the appropriate arguments and
 3. End
 
 The image order is file name alphabetical.
 
-It is important that, using the default directory, the extension of the output
-file was `JPG` upcase. Because if it is `jpg` and you run the script again the
-output image will be included.
+When using the default directory, it is important that, the extension of the
+output file was `JPG` uppercase because if it is `jpg` and you run the script
+again the output image will be included.
 
 Options:
 
