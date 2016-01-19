@@ -6,19 +6,25 @@ A Python script to compose cartoon strips from images.
 
 Input:
 
-<img src=1.jpg width=100 />
+A image:
 
-![1.jpg](1.jpg)
+<img src=1.jpg width=400 />
 
-![2.jpg](2.jpg)
+Other:
 
-![3.jpg](3.jpg)
+<img src=2.jpg width=400 />
 
-![4.jpg](4.jpg)
+Other:
+
+<img src=3.jpg width=400 />
+
+Other:
+
+<img src=4.jpg width=400 />
 
 Default output (`-c 1`):
 
-![OUTPUT.JPG](OUTPUT.JPG)
+<img src=OUTPUT.JPG width=400 />
 
 Output with `-c 4` option:
 
