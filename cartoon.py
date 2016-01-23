@@ -30,7 +30,7 @@ IMAGEWIDTH = 800
 def getimages(directory='.'):
     fs = [f for f in os.listdir(directory) if f.endswith('.jpg')]
     fs.sort()
-    images = [Image.open(f) for f in fs]
+    images = [Image.open(directory + '/' + f) for f in fs]
     return images
 
 
